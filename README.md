@@ -120,9 +120,9 @@ This will create the necessary AWS resources, including an RDS instance running 
   
  ### Destroy the AWS resources:<p>
   
-     ```shell
-      terraform destroy --auto-approve
-     ```
+        ```shell
+         terraform destroy --auto-approve
+        ```
 
  <p>
 
