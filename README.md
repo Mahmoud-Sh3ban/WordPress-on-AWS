@@ -111,30 +111,24 @@ This will create the necessary AWS resources, including an RDS instance running 
     ```
 
 <p>
-
  Note: Replace <minikube-ip> with the actual IP and <node-port> with the NodePort specified in `wp-k8s.tf`. <p>
 
 <p>
   
- ## Cleaning up the Development Environment:<p>
-  
- ### Destroy the AWS resources:<p>
-  
-        ```shell
-         terraform destroy --auto-approve
-        ```
-
- <p>
-
-  This will delete the RDS instance and other associated AWS resources.<p>
- 
+## Cleaning up the Development Environment:<p>
+### Destroy the AWS resources:
+  ```shell
+  terraform destroy --auto-approve
+   ```
+<p>  
+This will delete the RDS instance and other associated AWS resources.<p> 
 <p>
  
 ## Version:<p>
 
- Terraform v1.4.6 <p>
-  - provider.AWS v4.67.0
-  - provider.Kubernetes v2.20.0
+  Terraform v1.4.6 <p>
+   - provider.AWS v4.67.0
+   - provider.Kubernetes v2.20.0
 
 
 
